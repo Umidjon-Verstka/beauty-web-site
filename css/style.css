@@ -52,21 +52,14 @@ body{
 .header {
     background-color: var(--white);
 }
-.header__container {
-}
 .header__top-line {
     padding: 17px 0px 16px 0px;
     background-color: var(--bg-color);
-}
-.header__top-nav {
 }
 .header__top-list {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.header__top-item {
-
 }
 .header__top-item:not(:last-child){
     margin: 0px 30px 0px 0px;
@@ -106,14 +99,8 @@ body{
 .header__logo-img {
     margin: 0px 20px 0px 0px;
 }
-.header__logo-text {
-
-}
 .header__phone-number {
     margin: 0px 40px 0px auto;
-}
-.header__second-line-btn {
-    
 }
 .header__second-line-btn:hover{
     background-color: var(--main-color);
@@ -129,15 +116,10 @@ body{
     padding: 30px 0px;
     border-top: 1px solid var(--grey-color);
 }
-.header__bottom-nav {
-}
 .header__bottom-list {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.header__bottom-item {
-
 }
 .header__bottom-item:not(:last-child){
     margin: 0px 40px 0px 0px;
@@ -207,8 +189,6 @@ body{
     background-color: var(--grey-color);
     padding: 80px 0px 100px 0px;
 }
-.goods__container {
-}
 .goods__heading {
     font-weight: 700;
     font-size: 24px;
@@ -229,8 +209,6 @@ body{
 }
 .goods__column *:not(:last-child){
     margin: 0px 0px 20px 0px;
-}
-.goods__img {
 }
 .goods__text {
     line-height: calc(19.69 / 14 * 100%);
@@ -263,8 +241,6 @@ body{
     background-color: var(--grey-color);
     padding: 0px 0px 133px 0px;
 }
-.subscribe-shop__container {
-}
 .subscribe-shop__row {
     display: flex;
     justify-content: space-between;
@@ -276,8 +252,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.subscribe-shop__item {
 }
 .subscribe-shop__item *:not(:last-child){
     margin: 0px 0px 25px 0px;
@@ -308,10 +282,6 @@ body{
     color: var(--white);
 }
 /* FOOTER SECTIONS */
-.footer {
-}
-.footer__container {
-}
 .footer__line {
     display: flex;
     justify-content: space-between;
@@ -352,8 +322,6 @@ body{
 }
 .footer__phone-number {
     margin: 0px 40px 0px auto;
-}
-.header__second-line-btn {
 }
 .footer__copyright {
     background-color: var(--bg-color);
