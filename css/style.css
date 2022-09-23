@@ -1,7 +1,6 @@
 /* Variables */
 :root{
     /* --name: value */
-    --white: #fff;
     --black: #000;
     --bg-color: #E5E5E5;
     --grey-color: #EFEFEF;
@@ -9,6 +8,7 @@
     --main-text-color: #333333;
     --main-font-family: "Roboto", sans-serif;
     --main-font-weight: 14px;
+    --white: #fff;
 }
 *{
     box-sizing: border-box;
@@ -49,12 +49,13 @@ body{
 
 /* HEADER TOP LINE */
 .header {
-    background-color: var(--bg-color);
+    background-color: var(--white);
 }
 .header__container {
 }
 .header__top-line {
     padding: 17px 0px 16px 0px;
+    background-color: var(--bg-color);
 }
 .header__top-nav {
 }
@@ -88,6 +89,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
+    background-color: var(--white);
 }
 .header__logo {
     display: flex;
@@ -121,9 +123,10 @@ body{
     color: var(--white);
     opacity: 0.8;
 }
-/* BOTTOM LINE */
+/*HEADER BOTTOM LINE */
 .header__bottom-line {
     padding: 30px 0px;
+    border-top: 1px solid var(--grey-color);
 }
 .header__bottom-nav {
 }
@@ -178,4 +181,52 @@ body{
     border-color: var(--white);
     color: var(--white);
     letter-spacing: 0.05em;
+}
+/* GOODS SECTION */
+.goods {
+    background-color: var(--grey-color);
+    padding: 80px 0px 100px 0px;
+}
+.goods__container {
+}
+.goods__heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(28 / 24 * 100%);
+    color: var(--black);
+    margin: 0px 0px 38px 0px;
+}
+.goods__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goods__column {
+    background-color: var(--white);
+    max-width: 255px;
+    padding: 25px 30px;
+    text-align: center;
+}
+.goods__column *:not(:last-child){
+    margin: 0px 0px 20px 0px;
+}
+.goods__img {
+}
+.goods__text {
+    line-height: calc(19.69 / 14 * 100%);
+    font-size: 14px;
+}
+.goods__price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: calc(24 / 21 * 100%);
+    letter-spacing: 0.05em;
+}
+.goods__btn {
+    line-height: calc(16 / 14 * 100%);
+    letter-spacing: 0.05em;
+    background-color: var(--main-color);
+    color: var(--white);
+    padding: 9px 40px;
+    border: none;
 }
