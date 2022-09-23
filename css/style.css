@@ -33,6 +33,7 @@ body{
 }
 .btn {
     display: inline-block;
+    font-size: 14px;
     border-radius: 40px;
     border: 2px solid var(--main-color);
     background-color: var(--white);
@@ -49,7 +50,6 @@ body{
 /* HEADER TOP LINE */
 .header {
     background-color: var(--bg-color);
-    height: 50px;
 }
 .header__container {
 }
@@ -143,4 +143,39 @@ body{
     color: var(--black);
     font-size: 16px;
     line-height: calc(18.75 / 16 * 100%);
+}
+/* SALE SECTION */
+.sale {
+    background-image: url(../img/sale.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sale__container {
+    min-height: 604px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.sale__container *:not(:last-child){
+    margin: 0px 0px 50px 0px;
+}
+.sale__heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: calc(56 / 48 * 100%);
+    color: var(--white);
+}
+.sale__text {
+    line-height: calc(20 / 14 * 100%);
+    color: var(--white);
+
+}
+.sale__btn {
+    padding: 12px 44px;
+    background-color: var(--main-color);
+    border-color: var(--white);
+    color: var(--white);
+    letter-spacing: 0.05em;
 }
