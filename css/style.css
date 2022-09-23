@@ -7,7 +7,8 @@
     --main-color: #66C05D;
     --main-text-color: #333333;
     --main-font-family: "Roboto", sans-serif;
-    --main-font-weight: 14px;
+    --main-font-weight: 400;
+    --main-font-size: 14px;
     --white: #fff;
 }
 *{
@@ -256,4 +257,53 @@ body{
 .goods__btn:active{
     background-color: var(--main-color);
     opacity: 0.6;
+}
+/* SUBSCRIBE AND SHOP SECTIONS */
+.subscribe-shop {
+    background-color: var(--grey-color);
+    padding: 0px 0px 133px 0px;
+}
+.subscribe-shop__container {
+}
+.subscribe-shop__row {
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-shop__column {
+    min-width: 540px;
+    background-color: var(--main-color);
+    padding: 35px 45px 36px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe-shop__item {
+}
+.subscribe-shop__item *:not(:last-child){
+    margin: 0px 0px 25px 0px;
+}
+.subscribe-shop__heading {
+    font-size: 18px;
+    line-height: calc(21.09 / 18 * 100%);
+    color: var(--white);
+
+}
+.subscribe-shop__text {
+    line-height: calc(19.69 / 14 * 100%);
+    color: var(--white);
+}
+.subscribe-shop__input {
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 9px 25px;
+}
+.subscribe-shop__input:focus{
+    outline-color: #E5E5E5;
+}
+.subscribe-shop__btn{
+    border-color: var(--white);
+    background-color: var(--main-color);
+    padding: 9px 28px 9px 29px;
+    color: var(--white);
 }
