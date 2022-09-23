@@ -146,6 +146,14 @@ body{
     color: var(--black);
     font-size: 16px;
     line-height: calc(18.75 / 16 * 100%);
+    transition: all 0.2s ease-in-out;
+}
+.header__bottom-link:hover{
+    color: var(--main-color);
+}
+.header__bottom-link:active{
+    color: var(--main-color);
+    opacity: 0.8;
 }
 /* SALE SECTION */
 .sale {
@@ -181,6 +189,17 @@ body{
     border-color: var(--white);
     color: var(--white);
     letter-spacing: 0.05em;
+}
+.sale__btn:hover{
+    background-color: var(--white);
+    color: var(--main-color);
+
+}
+.sale__btn:active{
+    background-color: var(--main-color);
+    border-color: var(--white);
+    color: var(--white);
+    opacity: 0.6;
 }
 /* GOODS SECTION */
 .goods {
@@ -229,4 +248,12 @@ body{
     color: var(--white);
     padding: 9px 40px;
     border: none;
+}
+.goods__btn:hover{
+    background-color: var(--main-color);
+    opacity: 0.8;
+}
+.goods__btn:active{
+    background-color: var(--main-color);
+    opacity: 0.6;
 }
