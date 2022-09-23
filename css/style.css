@@ -1,14 +1,17 @@
 /* Variables */
 :root{
     /* --name: value */
-    --main-text-color: #fff;
-    --main-font-family: "Montserrat", sans-serif;
-    --main-font-weight: 400;
-    --main-font-size: 16px;
+    --white: #fff;
+    --black: #000;
+    --grey-color: #EFEFEF;
+    --main-color: #66C05D;
+    --main-text-color: #333333;
+    --main-font-family: "Roboto", sans-serif;
+    --main-font-weight: 14px;
 }
 /* Container */
 .container {
-    max-width: 1000px;
+    max-width: 1130px;
     padding: 0 15px;
     margin: 0 auto;
 }
